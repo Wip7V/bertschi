@@ -1,0 +1,59 @@
+
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+
+</head>
+<body>
+
+<style>
+	body{
+		font-family: Arial;
+		font-size: 10px;
+		text-align: justify;
+		/*padding: 40px 60px 60px 80px;*/
+	}
+	li{
+		margin: 5px 0px;
+	}
+	
+	.page-number:after { content: counter(page); }
+	
+	strong{font-size: 14px;}
+	
+	td{
+	padding:0 5px;
+	text-align:center;
+	background-color:#fff;
+	}
+	
+	th{text-align:center;}
+	table{background-color:#cccccc; width:100%;}
+	
+	/* ccs para magina a imprimir */
+	@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+	}
+	
+@page {margin: 1cm; }
+/*@page:first {margin-top: 1cm; margin-bottom: 2cm; }
+@page:right {margin-left: 2cm; }
+@page:left {margin-right: 2cm; } */
+	
+@media all {
+   .saltopagina{
+      display: none;
+   }
+
+   
+@media print{
+   .saltopagina{ 
+      display:block; 
+      /*page-break-before:always;*/
+   }
+}
+}
+</style>

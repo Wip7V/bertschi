@@ -1,0 +1,168 @@
+#principal{
+	
+	width:1000px;
+	background-color:#CCC;
+	border:solid #000 2px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:26px;
+	overflow:auto;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+#registro{
+	width:1000px;
+	background-color:#CCC;
+	border:solid #000 2px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	overflow:auto;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.titulo{
+	text-align:center;
+	font-size:32px;
+	
+}
+.acceso{
+	text-align:center;
+	font-size:32px;
+	margin:auto;
+	
+}
+
+.botones{
+	width:850px;
+	font-size:14px;
+	margin:auto;
+	overflow:auto;
+	
+}
+
+.boton{
+	font-size: 22px;
+	text-decoration: none;
+	text-align: center;
+	margin:auto;
+	float:left;
+	height:50px;
+	padding:10px;
+	border-radius:10px;
+	background-color:#333;
+	color:#FFF;
+}
+.boton:hover{
+	background-color: #999;
+	color:#000;
+}
+
+.botones a{
+	font-size: 18px;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	margin:10px;
+
+	padding-top:22px;
+	height:50px;
+	width:250px;
+	border-radius:10px;
+	background-color:#333;
+	color:#FFF;
+}
+.botones a:hover{
+	background-color: #999;
+	color:#000;
+}
+#salir{
+	width:400px;
+	margin:auto;
+	height:100px;
+		
+}
+.formulario{
+	margin:auto;
+	text-align:center;
+
+}
+.tabla{
+	text-align:left;
+	padding:5px 5px 5px 5px;
+	margin:auto;
+}
+.tabla td{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:18px;
+	}
+input, select {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:26px;
+}
+
+.lf{
+	font-size:16px;
+	color:#00C;
+}
+.user{
+	text-decoration: none;
+	color:#FFF;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	margin:10px;
+	padding:20px 20px 0px 20px;
+	background-color: #009;
+	height:50px;
+	border:#000 solid 2px;
+	border-radius:10px;
+}
+#salir a{
+	text-decoration: none;
+	color:#FFF;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	margin:10px;
+	padding-top:20px;
+	background-color: #F00;
+	height:50px;
+	width:100px;
+	border:#000 solid 2px;
+	border-radius:10px;
+}
+#salir a:hover{
+	
+	color: #000;
+	background-color: #FF0;
+	
+}
+.separador{
+	height:10px;
+	width:550px;
+	margin:auto;
+	background-color:#000;
+	border-radius:10px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+#entrada{
+	margin:auto;
+	text-align:center;
+
+	}
+
+#guardar{
+	margin:auto;
+	text-align:center;
+}
+
+#salida{
+	margin:auto;
+	text-align:center;
+
+}
+
+#buscar{
+	margin:auto;
+}
